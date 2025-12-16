@@ -1,0 +1,21 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 8px;
+  cursor: default;
+  transition-duration: var(--transition-duration);
+
+  color: var(--color-green-3);
+
+
+  &-title {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  &:hover {
+
+    scale: 1.05;
+  }
+}

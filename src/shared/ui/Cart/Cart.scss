@@ -1,0 +1,12 @@
+.cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+
+  &:active {
+    scale: 1.05;
+  }
+}
