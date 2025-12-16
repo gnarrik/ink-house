@@ -1,9 +1,15 @@
 import './Cart.scss'
+import classNames from "classnames";
 
-const Cart = () => {
+const Cart = (props: any) => {
+  const {className, isHidden} = props
 
   return (
-    <div className='cart'>
+    <div
+      className={classNames('cart', className, {
+        'visually-hidden': isHidden,
+      })}
+    >
       <svg
         width="22" height="22" viewBox="0 0 22 22" fill="none"
         xmlns="http://www.w3.org/2000/svg"
