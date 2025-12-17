@@ -30,6 +30,7 @@
     background-color: var(--color-green-1);
     border: none;
     transition-behavior: allow-discrete;
+    z-index: 900;
 
 
     &[open] .nav__list {

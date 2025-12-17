@@ -20,8 +20,8 @@ const Header = () => {
           className='header__overlay-menu-dialog' open={openDialog}
         >
           <ul className='nav__list'>
-            {headerLinks.map((link) => (
-              <li className='nav__item'>
+            {headerLinks.map((link, index) => (
+              <li className='nav__item' key={index}>
                 <a href="/" className='nav__link-title'>
                   {link}
                 </a>

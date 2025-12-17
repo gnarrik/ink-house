@@ -16,7 +16,10 @@
   }
 
   &:hover {
-
     scale: 1.05;
+  }
+
+  &:active {
+    scale: 1;
   }
 }
